@@ -1,0 +1,32 @@
+[data-fill-with = table-of-contents] {
+      z-index: 100;
+      position: fixed;
+      left: 2em;
+      top: 0;
+      width: 42%;
+      height: 100%;
+      max-width: 25em;
+      padding-right: 2em;
+      background: white;
+      overflow: auto;
+    }
+
+ul.toc ul {
+    margin-left: 1.5em;
+}
+
+ul.toc ul ul {
+    margin-left: 2em;
+}
+
+.h-entry {
+    padding-left: 370px;
+}
+
+ul.toc ul ul .secno {
+        display: none;
+}
+
+ul.toc ul ul {
+        display: none;
+}
